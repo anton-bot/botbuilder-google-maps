@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/catcher-in-the-try/botbuilder-google-maps/issues"
   },
-  "homepage": "https://github.com/catcher-in-the-try/botbuilder-google-maps#readme"
+  "homepage": "https://github.com/catcher-in-the-try/botbuilder-google-maps#readme",
+  "dependencies": {
+    "botbuilder": "^3.11.0"
+  }
 }
