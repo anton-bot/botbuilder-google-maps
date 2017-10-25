@@ -1,6 +1,6 @@
 {
   "name": "botbuilder-google-maps",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Send maps to user and receive user's location in Bot Framework using Google Maps.",
   "main": "index.js",
   "scripts": {

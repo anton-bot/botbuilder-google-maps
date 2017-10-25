@@ -33,12 +33,17 @@ class BotBuilderGoogleMaps {
 
   /**
    * Sends a message to the user asking them natively to select a location on
-   * a map.
+   * a map. The message will be shown as a normal plaintext message on other
+   * channels.
+   *
+   * Example:
+   *   const Maps = require('botbuilder-google-maps');
+   *   Maps.sendFacebookLocationPrompt(session, 'Send me your location!');
    * @param {object} session - The botbuilder session object.
    * @param {string} prompt - The text of the prompt before the location
    *  request.
    */
-  sendFacebookLocationPrompt(session, prompt) {
+  static sendFacebookLocationPrompt(session, prompt) {
     const message = new builder.Message(session).text(prompt).sourceEvent({
       facebook: {
         quick_replies: [
